@@ -1,0 +1,11 @@
+---
+name: Ejercitación Accesibilidad
+locale: es
+type: learning
+beta: false
+teacher_info: ''
+language: html
+id_format: "%05d"
+order:
+- 1
+private: false
