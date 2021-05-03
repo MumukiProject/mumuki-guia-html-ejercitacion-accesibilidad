@@ -1,5 +1,4 @@
-
-Crear 6 botones con texto y agregarles los siguientes estilos:
+Creá 6 botones con texto y agregarles los siguientes estilos:
 
 ```css
 button {
@@ -19,9 +18,14 @@ button {
   cursor: pointer;
 }
 ```
+:warning: Consideraciones:
 
-<br>
-
-- Cambiarles el color de fondo y el color de texto a cada botón, de modo que haya 3 botones con color de fondo claro y texto oscuro, y 3 con color de fondo oscuro y color de texto claro. La relación de contraste entre el color de texto y el de fondo _debe ser_ de 4.5 o mayor.
-- Agregarles un contorno al hacer foco con `box-shadow`.
-- Diferenciar los estados `:hover` y `:active` haciendo que el color de fondo se aclare o oscurezca, manteniendo una relación de contraste accesible.
+* todos los botones al hacer `hover` sobre ellos deben tener un contorno, utilizá `box-shadow`;
+* los tres primeros botones:
+  * deben tener como color de fondo `#FFCCCC` y color de texto `#D609E6`;
+  * al hacer `hover` sobre ellos el color de fondo deberá cambiar a `#D609E6` y el texto a `#FFCCCC`;
+  * cuando tengan un estado `active` el color de fondo deberá ser `#960FE6` y el texto a `#FFFFFF`;
+* los tres últimos botones:
+  * deben tener como color de fondo `#D609E6` y color de texto `#FFCCCC`;
+  * al hacer `hover` sobre ellos el color de fondo deberá cambiar a `#FFCCCC` y el texto a `#D609E6`;
+  * cuando tengan un estado `active` el color de fondo deberá ser `#960FE6` y el texto a `#FFFFFF`.
