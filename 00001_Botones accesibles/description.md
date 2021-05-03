@@ -1,4 +1,4 @@
-Creá 6 botones con texto y agregarles los siguientes estilos:
+Vamos a crear seis botones con los siguientes estilos y consideraciones:
 
 ```css
 button {
@@ -29,3 +29,5 @@ button {
   * deben tener como color de fondo `#D609E6` y color de texto `#FFCCCC`;
   * al hacer `hover` sobre ellos el color de fondo deberá cambiar a `#FFCCCC` y el texto a `#D609E6`;
   * cuando tengan un estado `active` el color de fondo deberá ser `#960FE6` y el texto a `#FFFFFF`.
+  
+> Creá el código HTML y aplicá los estilos que acabamos de describir.
