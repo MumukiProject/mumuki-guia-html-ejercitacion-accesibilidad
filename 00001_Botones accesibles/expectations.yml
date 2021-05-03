@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:button:nth-child(-n+3)
+  inspection: DeclaresStyle:background-color:#FFCCCC
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:button:nth-child(+n+4)
+  inspection: DeclaresStyle:background-color:#D609E6
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:button:nth-child(+n+4):hover
+  inspection: DeclaresStyle:background-color:#FFCCCC
