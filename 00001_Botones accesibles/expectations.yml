@@ -9,3 +9,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:button:nth-child(+n+4):hover
   inspection: DeclaresStyle:background-color:#FFCCCC
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:button:nth-child(+n+4):active
+  inspection: DeclaresStyle:background-color:#960FE6
