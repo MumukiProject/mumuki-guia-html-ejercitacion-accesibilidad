@@ -1,4 +1,19 @@
 /*<output#*//*#output>*/
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Hay un título h1 que dice Categorías", () => {
+  document.querySelector("h1").should.have.trimmed.text("Categorías");
+})
+
+it("Se introdujo un párrafo", () => {
+  document.querySelector("p").should.exist;
+})
+
+it("Hay un título h2 que dice Categorías principales", () => {
+  document.querySelector("h2").should.have.trimmed.text("Categorías principales");
+})
+
+it("Hay cuatro cards", () => {
+  document.querySelector("card").length.should.eql(4);
+})
+/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
