@@ -14,6 +14,9 @@ it("Hay un título h2 que dice Categorías principales", () => {
 it("Hay cuatro links, uno por cada card", () => {
   document.querySelectorAll("a").length.should.eql(4);
 })
-/*#tests>*/
+
+it("Los links dicen Ver más", () => {
+  document.querySelector("a").should.have.trimmed.text("Ver más");
+})/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
