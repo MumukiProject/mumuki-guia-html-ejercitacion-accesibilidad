@@ -1,4 +1,22 @@
 /*<output#*//*#output>*/
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Se introdujo un título h1", () => {
+  document.querySelector("h1").should.exist;
+})
+
+it("Se introdujo un párrafo", () => {
+  document.querySelector("p").should.exist;
+})
+
+it("Se introdujo una imagen decorativa", () => {
+  document.querySelector("img").should.exist;
+})
+
+it("Se introdujo una grilla", () => {
+  document.querySelector("grilla").should.exist;
+})
+
+it("La grilla tiene tres imágenes", () => {
+  document.querySelector("grilla img").length.should.eql(3);
+})/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
