@@ -1,4 +1,20 @@
 /*<output#*//*#output>*/
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Se introdujeron tres links", () => {
+  document.getElementsByTagName("a").length.should.eql(3);
+})
+
+it("Los íconos tienen un atributo 'aria-hidden'", () => {
+  document.getElementsByTagName("i")[0].should.have.attr('aria-hidden');
+  document.getElementsByTagName("i")[1].should.have.attr('aria-hidden');
+  document.getElementsByTagName("i")[2].should.have.attr('aria-hidden');
+})
+
+it("Los link tienen un atributo 'aria-label'", () => {
+  document.getElementsByTagName("button")[0].should.have.attr('aria-label');
+  document.getElementsByTagName("button")[1].should.have.attr('aria-label');
+  document.getElementsByTagName("button")[2].should.have.attr('aria-label');
+})
+
+/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
