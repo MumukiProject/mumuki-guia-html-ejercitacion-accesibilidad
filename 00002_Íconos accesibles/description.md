@@ -1,1 +1,1 @@
-> A 3 de los botones anteriores, agregales un ícono junto al texto. Al ícono dale un atributo `aria-hidden="true"` adecuado para que no sea leído por lectores de pantallas.
+> A los 3 primeros botones anteriores, agregales un ícono junto al texto. Al ícono dale un atributo `aria-hidden="true"` adecuado para que no sea leído por lectores de pantallas.
