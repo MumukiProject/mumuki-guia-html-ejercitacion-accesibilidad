@@ -1,4 +1,10 @@
 /*<output#*//*#output>*/
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Se introdujeron tres íconos", () => {
+  document.getElementsByTagName("i").length.should.eql(3);
+})
+
+it("Los íconos tienen un atributo 'aria-hidden=true'", () => {
+  document.getElementsByTagName("i").should.have.attr('aria-hidden=true');
+})/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
