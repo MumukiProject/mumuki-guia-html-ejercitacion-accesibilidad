@@ -4,7 +4,9 @@
 })
 
 it("Los íconos tienen un atributo 'aria-hidden=true'", () => {
-  document.getElementsByTagName("i")[0].should.have.attr('aria-hidden=true');
+  document.getElementsByTagName("i")[0].should.have.attr('aria-hidden="true"');
+  document.getElementsByTagName("i")[1].should.have.attr('aria-hidden="true"');
+  document.getElementsByTagName("i")[2].should.have.attr('aria-hidden="true"');
 })/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
