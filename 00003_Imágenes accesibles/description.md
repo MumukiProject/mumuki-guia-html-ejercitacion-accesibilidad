@@ -1,4 +1,4 @@
-Creá una página con:
+Queremos crear una página que contenga:
 
 - un título `h1`;
 - un texto con `lorem ipsum`;
@@ -14,3 +14,5 @@ Para las imágenes de la grilla, buscá 3 imágenes y agregale un texto alternat
 👎 Imagen de panqueques
 👍 Panqueques
 👏 Torre de panqueques esponjosos adornados con arándanos y frambuesas
+
+> Creá el código HTML que acabamos de describir.
