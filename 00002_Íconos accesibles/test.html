@@ -1,13 +1,17 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Se introdujeron tres íconos", () => {
   document.getElementsByTagName("i").length.should.eql(3);
-})
+});
+
+it("Se introdujo el icono de la patita", () => {
+  document.getElementsByTagName("i[class='fas fa-paw']").should.exist;
+});
 
 it("Los íconos tienen un atributo 'aria-hidden'", () => {
   document.getElementsByTagName("i")[0].should.have.attr('aria-hidden', "true");
   document.getElementsByTagName("i")[1].should.have.attr('aria-hidden', "true");
   document.getElementsByTagName("i")[2].should.have.attr('aria-hidden', "true");
-})
+});
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
