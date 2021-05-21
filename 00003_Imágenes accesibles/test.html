@@ -12,7 +12,7 @@ it("Se introdujo una imagen decorativa", () => {
 })
 
 it("Se introdujo una grilla", () => {
-  document.querySelector("div").should.exist;
+  document.querySelector("div").should.have.style("display", "grid");
 })
 
 it("La grilla tiene tres imágenes", () => {
