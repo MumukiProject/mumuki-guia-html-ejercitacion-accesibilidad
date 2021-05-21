@@ -4,7 +4,7 @@
 });
 
 it("Se introdujo el icono de la patita", () => {
-  document.getElementsByTagName("i[class='fas fa-paw']").should.exist;
+  document.querySelector("i[class='fas fa-paw']").should.exist;
 });
 
 it("Los íconos tienen un atributo 'aria-hidden'", () => {
