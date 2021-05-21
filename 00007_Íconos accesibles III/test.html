@@ -9,15 +9,15 @@ it("Los íconos tienen un atributo 'aria-hidden'", () => {
   document.getElementsByTagName("i")[2].should.have.attr('aria-hidden', "true");
 })
 
-it("Se introdujo el ícono de cortar dentro de un botón", () => {
+it("Se introdujo el ícono de la casa dentro de un link", () => {
   document.querySelector("a i[class='fas fa-home']").should.exist;
 });
 
-it("Se introdujo el ícono de copiar dentro de un botón", () => {
+it("Se introdujo el ícono de sobre dentro de un link", () => {
   document.querySelector("a i[class='fas fa-envelope']").should.exist;
 });
 
-it("Se introdujo el ícono de pegar dentro de un botón", () => {
+it("Se introdujo el ícono de usuario dentro de un link", () => {
   document.querySelector("a i[class='fas fa-user']").should.exist;
 });
 
