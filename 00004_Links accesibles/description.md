@@ -1,4 +1,4 @@
-Crear una página con:
+Necesitamos crear una página que tenga:
 
 - Un título que diga `Categorías`
 - Un texto con `lorem ipsum`
@@ -8,4 +8,6 @@ Crear una página con:
   - Descripción con `lorem ipsum`
   - Link que diga `Ver más`
 
-Agregar a cada link un atributo `aria-label` adecuado para que de más información a los lectores de pantalla sobre a dónde lleva ese link. Por ejemplo `aria-label="Leer más sobre categoría X"`.
+Agregá a cada link un atributo `aria-label` adecuado para que de más información a los lectores de pantalla sobre a dónde lleva ese link. Por ejemplo `aria-label="Leer más sobre categoría X"`.
+
+> Creá la página HTML que acabamos de describir.
