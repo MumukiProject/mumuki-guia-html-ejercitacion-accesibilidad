@@ -17,6 +17,20 @@ it("Se introdujo una grilla", () => {
 
 it("La grilla tiene tres imágenes", () => {
   document.querySelectorAll("div img").length.should.eql(3);
+})
+
+it("La imagen descriptiva tiene texto alternativo vacío", () => {
+  document.querySelectorAll("img")[0].should.have.attr('alt', '');
+})
+
+it("Todas las imágenes de la grilla tienen texto alternativo", () => {
+  document.querySelectorAll("img")[1].should.have.attr('alt');
+  document.querySelectorAll("img")[2].should.have.attr('alt');
+  document.querySelectorAll("img")[3].should.have.attr('alt');
+  
+  document.querySelectorAll("img")[1].should.not.have.attr('alt', '');
+  document.querySelectorAll("img")[2].should.not.have.attr('alt', '');
+  document.querySelectorAll("img")[3].should.not.have.attr('alt', '');
 })/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
