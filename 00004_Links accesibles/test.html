@@ -11,18 +11,28 @@ it("Hay un título h2 que dice Categorías principales", () => {
   document.querySelector("h2").should.have.trimmed.text("Categorías principales");
 })
 
-it("Hay cuatro links, uno por cada card", () => {
-  document.querySelectorAll("a").length.should.eql(4);
+it("Hay cuatro cards", () => {
+  document.querySelectorAll("div[class='card']").length.should.eql(4);
+})
+
+it("Cada card tiene un link", () => {
+  document.querySelectorAll("div[class='card'] a").length.should.eql(4);
 })
 
 it("Los links dicen Ver más", () => {
-  document.querySelector("a").should.have.trimmed.text("Ver más");
+  document.querySelector("div[class='card'] a").should.have.trimmed.text("Ver más");
 })
 
 it("Los links tienen un atributo aria-label", () => {
-  document.querySelector('a').should.have.attr('aria-label');
+  document.querySelector("div[class='card'] a").should.have.attr('aria-label');
 })
 
-/*#tests>*/
+it("Cada card tiene un título h3", () => {
+  document.querySelectorAll("div[class='card'] h3").length.should.eql(4);
+})
+
+it("Cada card tiene un párrafo", () => {
+  document.querySelectorAll("div[class='card'] p").length.should.eql(4);
+})/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
