@@ -4,9 +4,9 @@
 })
 
 it("Los íconos tienen un atributo 'aria-hidden'", () => {
-  document.getElementsByTagName("i")[0].should.have.attr('aria-hidden');
-  document.getElementsByTagName("i")[1].should.have.attr('aria-hidden');
-  document.getElementsByTagName("i")[2].should.have.attr('aria-hidden');
+  document.getElementsByTagName("i")[0].should.have.attr('aria-hidden', "true");
+  document.getElementsByTagName("i")[1].should.have.attr('aria-hidden', "true");
+  document.getElementsByTagName("i")[2].should.have.attr('aria-hidden', "true");
 })
 
 it("Los link tienen un atributo 'aria-label'", () => {
