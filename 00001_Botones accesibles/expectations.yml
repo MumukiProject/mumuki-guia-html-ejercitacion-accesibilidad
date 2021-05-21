@@ -12,3 +12,21 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:button:nth-child(+n+4):active
   inspection: DeclaresStyle:background-color:#960FE6
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:button:nth-child(-n+3)
+  inspection: DeclaresStyle:color:#D609E6
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:button:nth-child(+n+4)
+  inspection: DeclaresStyle:color:#FFCCCC
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:button:nth-child(+n+4):hover
+  inspection: DeclaresStyle:color:#D609E6
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:button:nth-child(-n+3):hover
+  inspection: DeclaresStyle:color:#FFCCCC
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:button:nth-child(+n+4):active
+  inspection: DeclaresStyle:color:#FFFFFF
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cs:button:nth-child(-n+3):active
+  inspection: DeclaresStyle:color:#FFFFFF
