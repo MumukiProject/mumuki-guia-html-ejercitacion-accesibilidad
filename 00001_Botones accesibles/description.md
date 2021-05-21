@@ -1,24 +1,4 @@
-Vamos a crear seis botones con los siguientes estilos y consideraciones:
-
-```css
-button {
-  height: 2.5rem;
-  min-width: 2.5rem;
-  font-weight: 600;
-  font-size: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  line-height: 1.2;
-  padding: 0 1rem;
-  border: 0;
-  border-radius: 0.25rem;
-  outline: none;
-  transition: all 250ms ease 0s;
-  user-select: none;
-  cursor: pointer;
-}
-```
-:warning: Consideraciones:
+Vamos a crear seis botones teniendo en cuenta los siguientes lineamientos:
 
 * todos los botones al hacer `hover` sobre ellos deben tener un contorno, utilizá `box-shadow`;
 * los tres primeros botones:
