@@ -28,5 +28,5 @@ expectations:
   binding: css:button:nth-child(+n+4):active
   inspection: DeclaresStyle:color:#FFFFFF
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: cs:button:nth-child(-n+3):active
+  binding: css:button:nth-child(-n+3):active
   inspection: DeclaresStyle:color:#FFFFFF
